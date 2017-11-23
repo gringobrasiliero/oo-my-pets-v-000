@@ -2,7 +2,7 @@ class Owner
 attr_accessor :pets, :name
 attr_reader :species
 OWNERS = []
-@@pets = {}
+
 
 def self.all
   OWNERS
@@ -15,6 +15,8 @@ end
 def self.reset_all
   OWNERS.clear
 end
+
+@@pets = {}
 
 def initialize(species)
 @species=species
