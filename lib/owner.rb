@@ -66,6 +66,10 @@ def sell_pets
   end
 end
 
+def list_pets
+  "I have "
+end
+
 
 
 end
