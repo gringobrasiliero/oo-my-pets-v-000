@@ -19,7 +19,7 @@ end
 def initialize(species)
 @species=species
 OWNERS << self
-@pets = {:fishes => [], :dogs => [], :cats => []}
+@@pets = {:fishes => [], :dogs => [], :cats => []}
 end
 
 def say_species
